@@ -35,7 +35,7 @@ const express = require("express");
 const req = require("express/lib/request");
 //No need for new it is a factoy function
 const app = express();
-const PORT = 4567;
+const PORT = process.env.PORT || 8765;
 //
 
 app.listen(PORT, function () {

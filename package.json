@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start:dev": "nodemon app.js",
-    "start:h": "heroku local web -p 5432"
+    "start:h": "heroku local web -p 5432",
+    "start": "nodemon app.js"
   },
   "keywords": [],
   "author": "",
